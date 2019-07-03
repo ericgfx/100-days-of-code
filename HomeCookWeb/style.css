@@ -1,0 +1,62 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css';
+
+h1{
+    font-size: 2em;
+}
+.pullright {
+    float:right;
+}
+.logo{
+    float:left;
+    padding:0 0;
+    text-transform: uppercase;
+}
+
+nav{
+    display:block;
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width:100%;
+    top: 0;
+  }
+  
+nav li {
+    float: right;
+    border-left:1px solid #bbb;
+  }
+  
+nav li:last-child {
+    border-left: none;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+nav .active {
+    background-color: #4CAF50;
+  }
+
+.welcome{
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) center center / cover no-repeat;
+    padding: 100px 20px;
+    color:white;
+
+}
