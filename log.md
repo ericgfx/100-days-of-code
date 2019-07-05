@@ -15,3 +15,11 @@ I may need to do a few free code camp courses for html and css refreshing.
 **Today's Progress:** Okay so just jumping in based on my mockup. Started with a basic html outline with a linked css. Total basics. Grabbed a bunch from w3Schools for that header part.
 
 **Thoughts:** Started by looking at the code from a codecademy file, but realize my version of it atleast, had used bootstrap. And just looking at that got me wanting to learn flexbox. None of this xs-col-11 thankyou very much. But then I wonder okay how will flexbox deal with background imagery? Something to look at tomorrow perhaps. 
+
+
+### Day 2: July 4
+##### Took a day away for Charlie to experience biolumenscence at Tomales Bay. Silly sit on top kayak with holes in it? Water was cold, and 2ft breaking waves!
+
+**Today's Progress:** Why not try to learn a bit of flexbox? I was having some issues with the heights not being as tall as my avatar.
+
+**Thoughts:** Seems like everything has its own unique way of failing. Just building a clever nav bar seems difficult. Taking a nap before my head sounds like these fireworks.

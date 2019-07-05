@@ -1,58 +1,76 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css';
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+}
+
 h1{
     font-size: 2em;
 }
-.pullright {
-    float:right;
-}
-.logo{
-    float:left;
-    padding:0 0;
-    text-transform: uppercase;
-}
+
 
 nav{
-    display:block;
-    clear: both;
+  display:flex;
+  align-items: center;
+  color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #333;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    width:100%;
-    top: 0;
-  }
+nav a{
+  text-decoration: none;
+  color:white;
+}
+
+nav div {
+  border-left:1px solid #bbb;
+}
+
+nav div:last-child, div:first-child {
+  border-left: none;
+}
+
+nav .logo{
+  text-transform: uppercase;
+  flex: 5 1 auto;
+  padding:20px;
+}
   
-nav li {
-    float: right;
-    border-left:1px solid #bbb;
-  }
+nav .item{
+  flex: 0 1 auto;
+  padding: 20px;
+}
+
+nav img{
+  border-radius:50%;
+  width: 43px;
+  padding:0;
+}
+
+nav div:hover:not(.active) {
+  background-color: #111;
+}
+
+nav div .active {
+  background-color: #4CAF50;
+}
+
+.search {
+    /* take up the rest of the remaining space */
+    flex: 1;
+}
+
+.search input {
+  width: 100%;
+}
   
-nav li:last-child {
-    border-left: none;
-  }
-  
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-nav li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-nav .active {
-    background-color: #4CAF50;
-  }
+
 
 .welcome{
     background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) center center / cover no-repeat;
