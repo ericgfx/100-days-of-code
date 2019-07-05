@@ -1,4 +1,6 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -50,7 +52,7 @@ nav .item{
 nav img{
   border-radius:50%;
   width: 43px;
-  padding:0;
+  padding:0 5px;
 }
 
 nav div:hover:not(.active) {
@@ -61,14 +63,40 @@ nav div .active {
   background-color: #4CAF50;
 }
 
-.search {
-    /* take up the rest of the remaining space */
+.searchContainer {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+
+.searchButton {
+  background: #538AC5;
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+}
+
+/* .search {
     flex: 1;
 }
 
 .search input {
   width: 100%;
-}
+} */
   
 
 
