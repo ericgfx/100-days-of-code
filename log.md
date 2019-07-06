@@ -23,3 +23,10 @@ I may need to do a few free code camp courses for html and css refreshing.
 **Today's Progress:** Why not try to learn a bit of flexbox? I was having some issues with the heights not being as tall as my avatar.
 
 **Thoughts:** Seems like everything has its own unique way of failing. Just building a clever nav bar seems difficult. Taking a nap before my head sounds like these fireworks.
+
+### Day 3: July 5
+##### Looking better
+
+**Today's Progress:** Used Adobe Color to explore different color palettes for something with a bit more charm than grey on grey. Also added new image from unsplash.
+
+**Thoughts:**Wow so not a coding language. HTML and CSS is like the wild west in that there are so many different ways to achieve a look. I've been using CSS Tricks to cudgle a look together, wether its :placeholder to style *that* bit of code. Feels like my CSS is already super bloated, and all I have are a Nav and a Welcome Section. Feels ugly.
