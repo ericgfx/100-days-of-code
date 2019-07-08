@@ -30,3 +30,17 @@ I may need to do a few free code camp courses for html and css refreshing.
 **Today's Progress:** Used Adobe Color to explore different color palettes for something with a bit more charm than grey on grey. Also added new image from unsplash.
 
 **Thoughts:**Wow so not a coding language. HTML and CSS is like the wild west in that there are so many different ways to achieve a look. I've been using CSS Tricks to cudgle a look together, wether its :placeholder to style *that* bit of code. Feels like my CSS is already super bloated, and all I have are a Nav and a Welcome Section. Feels ugly.
+
+###Day 4: July 6
+##### Spent most of day working on Wordpress Portfolio
+
+**Today's Progress:** Limited. I mean I learned a lot about the template and CMS that I'm using but not much progress on HomeCook.
+
+**Thoughts:**Man kind of a bit stalled out. Despite not having little man to chase me around for most of the day.
+
+###Day 5: July 7
+##### Just a few tweaks
+
+**Today's Progress:** Revisted some lessons from CodeCademy specifically box-sizing: border-box vs content-box.
+
+**Thoughts:** Bugger that I can't get the heights of nav borders to sync up. Need to do more digging on that. Looked into hostgator for hosting a react database. No support it appears. So either I go via PHP or I look into AWS or Heroku for a database I dont understand. Man I need a mentor.
