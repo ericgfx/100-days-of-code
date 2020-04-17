@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    /* Old browsers */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    color: white;
+
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+    
+    padding: 1em 2em 3em 2em;
+}
+
+.intro-content {
+    width: 50%
+}
